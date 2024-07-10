@@ -3,7 +3,7 @@ import pickle
 from streamlit_option_menu import option_menu
 
 
-jurusan_model = pickle.load(open('jurusan_knn1.Model.sav', 'rb'))
+jurusan_model = pickle.load(open('jurusan.Model.sav', 'rb'))
 with st.sidebar:
             selected=option_menu('Sistem Penentuan Jurusan',
                                 ['About',
@@ -40,7 +40,7 @@ if (selected == 'Prediksi Jurusan'):
         Nilai_IPS = st.number_input('IPS')
       
       with col2:
-        Nilai_Bahasa_Inggris = st.number_input('Bahasa_Inggris')
+        Nilai_Bahasa_Inggris = st.number_input('Bahasa Inggris')
 
         #jurusan prediksi
         jurusan_predict
