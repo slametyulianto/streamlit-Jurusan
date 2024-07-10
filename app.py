@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
-from streamlit_option_menu import streamlit_option_menu
+from streamlit_option_menu import option_menu
+
 
 jurusan_model = pickle.load(open('jurusan_knn1.Model.sav', 'rb'))
 with st.sidebar:
