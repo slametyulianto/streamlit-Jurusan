@@ -39,7 +39,7 @@ if (selected == 'Prediksi Jurusan'):
         Nilai_IPS = st.number_input('IPS')
       
       with col2:
-        Nilai_Bahasa Inggris = st.number_input('Bahasa Inggris')
+        Nilai_Bahasa_Inggris = st.number_input('Bahasa_Inggris')
 
         #jurusan prediksi
         jurusan_predict
