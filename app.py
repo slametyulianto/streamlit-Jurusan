@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 from streamlit_option_menu import streamlit_option_menu
 
-jurusan_model=pickle.load(open('jurusan_knn1.Model.sav'.'rb'))
+jurusan_model = pickle.load(open('jurusan_knn1.Model.sav', 'rb'))
 with st.sidebar:
             selected=option_menu('Sistem Penentuan Jurusan',
                                 ['About',
